@@ -1552,7 +1552,7 @@ if __name__ == '__main__':
               event.set()
               ts = time()
               while time() < ts + timer:
-                  logger.debug(f'{bcolors.WARNING}Target Ip:{bcolors.OKGREEN} %s,{bcolors.WARNING} Target Port:{bcolors.OKGREEN} %s,{bcolors.WARNING} Method:{bcolors.OKGREEN} %s{bcolors.WARNING} PPS:{bcolors.OKGREEN} %s,{bcolors.WARNING} BPS:{bcolors.OKGREEM} %s / %d%%{bcolors.RESET}' %
+                  logger.debug(f'{bcolors.WARNING}Target Ip:{bcolors.OKGREEN} %s,{bcolors.WARNING} Target Port:{bcolors.OKGREEN} %s,{bcolors.WARNING} Method:{bcolors.OKGREEN} %s{bcolors.WARNING} PPS:{bcolors.OKGREEN} %s,{bcolors.WARNING} BPS:{bcolors.OKGREEN} %s / %d%%{bcolors.RESET}' %
                                (target or url.host,
                                 port or (url.port or 80),
                                 method,
